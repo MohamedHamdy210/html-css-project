@@ -1,0 +1,23 @@
+body{background:rgba(0,0,0,.9) ;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+color: white;
+
+}
+.list {
+  text-transform: uppercase;
+  font-weight: 500;
+    border-radius: 50px;
+  width: 400px;
+  padding: 40px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background:rgba(0,0,0,.8) ;
+  text-align: center;
+color: white;
+}
+.list a{color: white;
+}

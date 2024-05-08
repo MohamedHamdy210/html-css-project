@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>football players</title>
+<link rel="stylesheet" href="../css/players.css">
+<script type="text/javascript">
+
+
+var i = 0; 			// Start Point
+var images = [];
+var time = 1500;
+images[0]='../assets/pic1.jpg';
+images[1]='../assets/pic5.jpg';
+images[2]='../assets/pic9.jpg';
+images[3]='../assets/pic13.jpg';
+images[4]='../assets/pic2.jpg';
+images[5]='../assets/pic6.jpg';
+images[6]='../assets/pic10.jpg';
+images[7]='../assets/pic14.jpg';
+images[8]='../assets/pic3.jpg';
+images[9]='../assets/pic7.jpg';
+images[10]='../assets/pic11.jpg';
+images[11]='../assets/pic16.jpg';
+images[12]='../assets/pic4.jpg';
+images[13]='../assets/pic8.jpg';
+images[14]='../assets/pic12.jpg';
+images[15]='../assets/pic17.jpg';
+
+
+function changeImg(){
+	document.slide.src = images[i];
+
+
+	if(i < images.length - 1){
+
+	  i++;
+	} else {
+
+		i = 0;
+	}
+
+	setTimeout("changeImg()", time);
+}
+
+window.onload=changeImg;
+</script>
+  </head>
+  <body>
+
+  <img name="slide" width="100%" height="75%">
+
+
+
+<div class="box">
+  <img src="../assets/pic4.jpg" class="db" width="500px" height="500px" >
+<div class="bio">
+
+
+  <h1>Lionel Andrés Messi Cuccittini</h1>
+<p> born 24 June 1987 is an Argentine professional footballer who plays as a forward and captains both Spanish club Barcelona and the Argentina national team. Often considered the best player in the world and regarded by many as the greatest player of all time.
+   Messi has won a record-tying five Ballon d'Or awards.
+   four of which he won consecutively, and a record five European Golden Shoes. He has spent his entire professional career with Barcelona, where he has won a club-record32 trophies, including nine La Liga titles, four UEFA Champions League titles and six Copas del Rey. Both a prolific goalscorer and a creative playmaker, Messi holds the records for most goals in La Liga and in Europe's top-five leagues , a La Liga season and club league season in Europe, a club football season in Europe, most official goals in a calendar year ,El Clásico, most hat-tricks in the UEFA Champions League , as well as those for most assists in La Liga  and the Copa América . He has scored over 685 senior career goals for club and country.</p>
+</div>
+<div class="bio">
+
+  <img src="../assets/pic6.jpg" class="db" width="500px" height="500px" >
+
+  <h1>Cristiano Ronaldo </h1>
+  <p>born 5 February 1985 is a Portuguese professional footballer who plays as a forward for Italian club Juventusand , captains the Portugal national team. Often considered the best player in the world and regarded by many as one of the greatest players of all time. Ronaldo has a record-tying five Ballon d'Orawards, the most for a European player, and is the first player to win four European Golden Shoes. He has won 27 trophies in his career, including five league titles, five UEFA Champions League titles and one UEFA European Championship. A prolific goalscorer, Ronaldo holds the records for most official goals scored in the UEFA Champions League , the UEFA European Championship , as well as those for most hat-tricks in the Champions League  and La Liga . assists in the UEFA Champions League  and the UEFA European Championship .He has scored over 700 senior career goals for club and country.</p>
+</div>
+<div class="bio">
+  <img src="../assets/pic12.jpg" class="db" width="500px" height="500px" >
+<h1>Neymar da Silva Santos Júnior </h1>
+<p>Neymar da Silva Santos Júnior commonly known as Neymar Jr. or simply Neymar born 5 February 1992,  is a Brazilian professional footballer who plays as a forward for French club Paris Saint-Germain and the Brazil national team. Considered one of the best players in the world, he is known for his dribbling, finishing, skill, pace, and ability to play with both feet.
+Neymar came into prominence at an early age at Santos, where he made his professional debut aged 17. He helped the club win two successive Campeonato Paulista championships, a Copa do Brasil, and the 2011 Copa Libertadores, Santos' first Copa Libertadores since 1963. Neymar was twice named the South American Footballer of the Year, in 2011 and 2012, before moving to Europe to join Barcelona. As part of Barça's attacking trio with Lionel Messi and Luis Suárez, he won the continental treble of La Liga, the Copa del Rey, and the UEFA Champions League, and came third for the FIFA Ballon d'Or in 2015 for his performances. He followed this up by attaining .</p>
+</div>
+<div class="bio">
+  <img src="../assets/pic16.jpg" class="db" width="500px" height="500px" >
+<h1>Mohamed Salah  </h1>
+<p>مborn 15 June 1992 is an Egyptian professional footballer who plays as a forward for Premier League club Liverpool and the Egypt national team. He is considered Europe's top five leagues' fifth most expensive player from a transfer value perspective by the CIES (as of 7 January 2019).[6]
+Salah started his senior career with Cairo club El Mokawloon[7] in the Egyptian Premier League in 2010, departing shortly thereafter to join Basel for an undisclosed fee. In Switzerland, he starred as he won the league title in his debut season, winning the SAFP Golden Player Award in the process. Salah's performances then attracted Premier League side Chelsea, and he joined the club for a £11 million fee in 2014. However, he was used sparingly in his debut season and was allowed to leave on loan to Serie A clubs Fiorentinaand Roma, with the latter eventually signing him permanently for €15 million.
+Following consistent match-winning performances in Rome to lead them to second-placed finish and a record points-tally in 2017, Salah relocated back to the Premier League to sign for Liverpool for a then club-record fee of £36.9 million. During his second spell in England, Salah adapted his game from a natural winger to a complete forward and quickly became the focal point of the team. He would go on to break the club's scoring record for a debut season, receiving the Premier League Golden Boot after registering a record 32 goals in 36 league games. He also became the first player to win three Premier League Player of the Monthawards in the same season.
+</p>
+</div>
+</div>
+</body>
+</html>

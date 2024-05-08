@@ -1,0 +1,30 @@
+body{ background:rgba(0,0,0,.9) ;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+color: white;
+
+}
+.block{ border: 3px;
+
+  height: 400px;
+  font-weight: 500;
+    border-radius: 50px;
+  width:99%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-90%);
+  background:rgba(0,0,0,.8) ;
+  text-align: center;
+color: white;
+}
+#facebook{ margin: 20px;
+    height: 700px;
+    width: 97%;
+  }
+  #hh{
+    text-align: center;
+    margin-top: 450px;
+  }
